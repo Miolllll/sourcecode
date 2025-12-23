@@ -1,0 +1,50 @@
+running egg_info
+creating build/human_tracker/human_tracker.egg-info
+writing build/human_tracker/human_tracker.egg-info/PKG-INFO
+writing dependency_links to build/human_tracker/human_tracker.egg-info/dependency_links.txt
+writing entry points to build/human_tracker/human_tracker.egg-info/entry_points.txt
+writing requirements to build/human_tracker/human_tracker.egg-info/requires.txt
+writing top-level names to build/human_tracker/human_tracker.egg-info/top_level.txt
+writing manifest file 'build/human_tracker/human_tracker.egg-info/SOURCES.txt'
+reading manifest file 'build/human_tracker/human_tracker.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/human_tracker/human_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/go/ros2_ws/src/human_tracker/build/human_tracker/build
+creating /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib
+creating /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker
+copying human_tracker/path_follower_node.py -> /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker
+copying human_tracker/__init__.py -> /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker
+copying human_tracker/user_goal_planner_node.py -> /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker
+copying human_tracker/human_tracker_node.py -> /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker
+running install
+running install_lib
+creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker
+copying /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker/path_follower_node.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker
+copying /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker/__init__.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker
+copying /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker/user_goal_planner_node.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker
+copying /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker/human_tracker_node.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker
+byte-compiling /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker/path_follower_node.py to path_follower_node.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker/user_goal_planner_node.py to user_goal_planner_node.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker/human_tracker_node.py to human_tracker_node.cpython-310.pyc
+running install_data
+creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/ament_index
+creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/ament_index/resource_index
+creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/ament_index/resource_index/packages
+copying resource/human_tracker -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/ament_index/resource_index/packages
+copying package.xml -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker
+creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/launch
+copying launch/run_all.launch.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/launch
+copying launch/test_timer.launch.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/launch
+creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/config
+copying config/nav2_params.yaml -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/config
+copying config/run_all.rviz -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/config
+running install_egg_info
+Copying build/human_tracker/human_tracker.egg-info to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker-0.1.0-py3.10.egg-info
+running install_scripts
+Installing human_tracker_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing path_follower_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing user_goal_planner script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+writing list of installed files to '/home/go/ros2_ws/src/human_tracker/build/human_tracker/install.log'

@@ -1,0 +1,6 @@
+[console_scripts]
+depth_map_node = depth_map.depth_map_node:main
+filter_node = depth_map.filter:main
+point_map_node = depth_map.point_map_node:main
+pointcloud_2d_map_node = depth_map.pointcloud_to_2d_map_node:main
+

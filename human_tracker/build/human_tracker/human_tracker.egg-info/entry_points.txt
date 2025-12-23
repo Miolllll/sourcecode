@@ -1,0 +1,6 @@
+[console_scripts]
+human_tracker_node = human_tracker.human_tracker_node:main
+path_follower_node = human_tracker.path_follower_node:main
+user_goal_planner = human_tracker.user_goal_planner_node:main
+user_goal_planner_safe = human_tracker.user_goal_planner_safe:main
+

@@ -1,0 +1,82 @@
+# config/nav2_params.yaml
+
+planner_server:
+  ros__parameters:
+    planner_plugins: ["GridBased", "HybridAStar"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+    HybridAStar:
+      plugin: "nav2_smac_planner/HybridPlanner"
+      use_astar_heuristic: true
+      allow_unknown: true
+      use_multi_level_graph: false
+      turning_radius: 0.6
+      cost_penalty: 2.0
+      step_size: 0.1
+      use_reeds_shepp: false
+
+global_costmap:
+  ros__parameters:
+    # 어떤 레이어들을 쓸지 정의
+    plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+
+    # 1) static map 레이어: /pointcloud_2d_map 토픽 구독
+    static_layer:
+      plugin: "nav2_costmap_2d::StaticLayer"
+      map_topic: /pointcloud_2d_map
+      subscribe_to_updates: false
+
+    # 2) obstacle 레이어 (기본)
+    obstacle_layer:
+      plugin: "nav2_costmap_2d::ObstacleLayer"
+      observation_sources: point_cloud
+      point_cloud: { topic: /filtered_points, max_obstacle_height: 2.0, clearing: true, marking: true }
+
+    # 3) inflation 레이어
+    inflation_layer:
+      plugin: "nav2_costmap_2d::InflationLayer"
+      inflation_radius: 0.1
+
+    # footprint (로봇 크기)
+    footprint: [
+      [ 0.45,  0.55],
+      [ 0.45, -0.55],
+      [-0.45, -0.55],
+      [-0.45,  0.55]
+    ]
+
+local_costmap:
+  ros__parameters:
+    plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+
+    static_layer:
+      plugin: "nav2_costmap_2d::StaticLayer"
+      map_topic: /pointcloud_2d_map
+      subscribe_to_updates: false
+
+    obstacle_layer:
+      plugin: "nav2_costmap_2d::ObstacleLayer"
+      observation_sources: point_cloud
+      point_cloud: { topic: /filtered_points, max_obstacle_height: 2.0, clearing: true, marking: true }
+
+    inflation_layer:
+      plugin: "nav2_costmap_2d::InflationLayer"
+      inflation_radius: 0.1
+
+    footprint: [
+      [ 0.45,  0.55],
+      [ 0.45, -0.55],
+      [-0.45, -0.55],
+      [-0.45,  0.55]
+    ]
+
+lifecycle_manager:
+  ros__parameters:
+    autostart: true          # 런치 시 자동 활성화
+    bond_timeout: 0.2        # shutdown bond ACK 대기 시간 단축
+    node_names:              # lifecycle 관리 대상 노드들
+      - planner_server
+      - controller_server
+      - recovery_server
+      - bt_navigator
+      - lifecycle_manager

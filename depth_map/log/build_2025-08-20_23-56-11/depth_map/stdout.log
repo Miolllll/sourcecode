@@ -1,0 +1,51 @@
+running egg_info
+creating build/depth_map/depth_map.egg-info
+writing build/depth_map/depth_map.egg-info/PKG-INFO
+writing dependency_links to build/depth_map/depth_map.egg-info/dependency_links.txt
+writing entry points to build/depth_map/depth_map.egg-info/entry_points.txt
+writing requirements to build/depth_map/depth_map.egg-info/requires.txt
+writing top-level names to build/depth_map/depth_map.egg-info/top_level.txt
+writing manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+reading manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+writing manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/go/ros2_ws/src/depth_map/build/depth_map/build
+creating /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib
+creating /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map
+copying depth_map/filter.py -> /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map
+copying depth_map/__init__.py -> /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map
+copying depth_map/depth_map_node.py -> /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map
+copying depth_map/point_map_node.py -> /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map
+copying depth_map/pointcloud_to_2d_map_node.py -> /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map
+running install
+running install_lib
+creating /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map
+copying /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map/filter.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map
+copying /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map/__init__.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map
+copying /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map/depth_map_node.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map
+copying /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map/point_map_node.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map
+copying /home/go/ros2_ws/src/depth_map/build/depth_map/build/lib/depth_map/pointcloud_to_2d_map_node.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map
+byte-compiling /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map/filter.py to filter.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map/depth_map_node.py to depth_map_node.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map/point_map_node.py to point_map_node.cpython-310.pyc
+byte-compiling /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map/pointcloud_to_2d_map_node.py to pointcloud_to_2d_map_node.cpython-310.pyc
+running install_data
+creating /home/go/ros2_ws/src/depth_map/install/depth_map/share/ament_index
+creating /home/go/ros2_ws/src/depth_map/install/depth_map/share/ament_index/resource_index
+creating /home/go/ros2_ws/src/depth_map/install/depth_map/share/ament_index/resource_index/packages
+copying resource/depth_map -> /home/go/ros2_ws/src/depth_map/install/depth_map/share/ament_index/resource_index/packages
+copying package.xml -> /home/go/ros2_ws/src/depth_map/install/depth_map/share/depth_map
+creating /home/go/ros2_ws/src/depth_map/install/depth_map/share/depth_map/launch
+copying launch/depth_map.launch.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/share/depth_map/launch
+copying launch/point.launch.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/share/depth_map/launch
+copying launch/octomap.launch.py -> /home/go/ros2_ws/src/depth_map/install/depth_map/share/depth_map/launch
+running install_egg_info
+Copying build/depth_map/depth_map.egg-info to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map-0.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+Installing filter_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+Installing point_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+Installing pointcloud_2d_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+writing list of installed files to '/home/go/ros2_ws/src/depth_map/build/depth_map/install.log'

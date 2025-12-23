@@ -1,0 +1,20 @@
+[0.362s] Invoking command in '/home/go/ros2_ws/src/human_tracker/build/human_tracker': PYTHONPATH=/home/go/ros2_ws/src/human_tracker/build/human_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/go/ros2_ws/src/human_tracker/build/human_tracker/build --no-deps symlink_data
+[0.510s] running develop
+[0.601s] running egg_info
+[0.601s] writing human_tracker.egg-info/PKG-INFO
+[0.601s] writing dependency_links to human_tracker.egg-info/dependency_links.txt
+[0.602s] writing entry points to human_tracker.egg-info/entry_points.txt
+[0.602s] writing requirements to human_tracker.egg-info/requires.txt
+[0.602s] writing top-level names to human_tracker.egg-info/top_level.txt
+[0.603s] reading manifest file 'human_tracker.egg-info/SOURCES.txt'
+[0.603s] writing manifest file 'human_tracker.egg-info/SOURCES.txt'
+[0.604s] running build_ext
+[0.604s] Creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human-tracker.egg-link (link to .)
+[0.604s] Installing human_tracker_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+[0.605s] Installing path_follower_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+[0.605s] Installing user_goal_planner script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+[0.605s] Installing user_goal_planner_safe script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+[0.605s] 
+[0.605s] Installed /home/go/ros2_ws/src/human_tracker/build/human_tracker
+[0.605s] running symlink_data
+[0.622s] Invoked command in '/home/go/ros2_ws/src/human_tracker/build/human_tracker' returned '0': PYTHONPATH=/home/go/ros2_ws/src/human_tracker/build/human_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/go/ros2_ws/src/human_tracker/build/human_tracker/build --no-deps symlink_data

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: human-tracker
+Version: 0.1.0
+Summary: Human tracking node using YOLOv11 pose + DeepSORT + Azure Kinect
+Home-page: UNKNOWN
+Maintainer: Your Name
+Maintainer-email: your@email.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

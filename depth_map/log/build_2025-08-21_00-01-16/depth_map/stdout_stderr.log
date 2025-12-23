@@ -1,0 +1,22 @@
+running egg_info
+writing build/depth_map/depth_map.egg-info/PKG-INFO
+writing dependency_links to build/depth_map/depth_map.egg-info/dependency_links.txt
+writing entry points to build/depth_map/depth_map.egg-info/entry_points.txt
+writing requirements to build/depth_map/depth_map.egg-info/requires.txt
+writing top-level names to build/depth_map/depth_map.egg-info/top_level.txt
+reading manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+writing manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/depth_map/depth_map.egg-info to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map-0.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+Installing filter_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+Installing point_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+Installing pointcloud_2d_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+writing list of installed files to '/home/go/ros2_ws/src/depth_map/build/depth_map/install.log'

@@ -1,0 +1,26 @@
+running egg_info
+writing build/human_tracker/human_tracker.egg-info/PKG-INFO
+writing dependency_links to build/human_tracker/human_tracker.egg-info/dependency_links.txt
+writing entry points to build/human_tracker/human_tracker.egg-info/entry_points.txt
+writing requirements to build/human_tracker/human_tracker.egg-info/requires.txt
+writing top-level names to build/human_tracker/human_tracker.egg-info/top_level.txt
+reading manifest file 'build/human_tracker/human_tracker.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/human_tracker/human_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying human_tracker/user_goal_planner_safe.py -> /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker
+running install
+running install_lib
+copying /home/go/ros2_ws/src/human_tracker/build/human_tracker/build/lib/human_tracker/user_goal_planner_safe.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker
+byte-compiling /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker/user_goal_planner_safe.py to user_goal_planner_safe.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker-0.1.0-py3.10.egg-info' (and everything under it)
+Copying build/human_tracker/human_tracker.egg-info to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human_tracker-0.1.0-py3.10.egg-info
+running install_scripts
+Installing human_tracker_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing path_follower_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing user_goal_planner script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing user_goal_planner_safe script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+writing list of installed files to '/home/go/ros2_ws/src/human_tracker/build/human_tracker/install.log'

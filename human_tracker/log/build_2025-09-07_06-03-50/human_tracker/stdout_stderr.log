@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing human_tracker.egg-info/PKG-INFO
+writing dependency_links to human_tracker.egg-info/dependency_links.txt
+writing entry points to human_tracker.egg-info/entry_points.txt
+writing requirements to human_tracker.egg-info/requires.txt
+writing top-level names to human_tracker.egg-info/top_level.txt
+reading manifest file 'human_tracker.egg-info/SOURCES.txt'
+writing manifest file 'human_tracker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/python3.10/site-packages/human-tracker.egg-link (link to .)
+Installing human_tracker_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing path_follower_node script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing user_goal_planner script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+Installing user_goal_planner_safe script to /home/go/ros2_ws/src/human_tracker/install/human_tracker/lib/human_tracker
+
+Installed /home/go/ros2_ws/src/human_tracker/build/human_tracker
+running symlink_data
+symbolically linking /home/go/ros2_ws/src/human_tracker/build/human_tracker/resource/human_tracker -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/ament_index/resource_index/packages
+symbolically linking /home/go/ros2_ws/src/human_tracker/build/human_tracker/package.xml -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker
+symbolically linking /home/go/ros2_ws/src/human_tracker/build/human_tracker/launch/run_all.launch.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/launch
+symbolically linking /home/go/ros2_ws/src/human_tracker/build/human_tracker/launch/test_timer.launch.py -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/launch
+symbolically linking /home/go/ros2_ws/src/human_tracker/build/human_tracker/config/nav2_params.yaml -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/config
+symbolically linking /home/go/ros2_ws/src/human_tracker/build/human_tracker/config/run_all.rviz -> /home/go/ros2_ws/src/human_tracker/install/human_tracker/share/human_tracker/config

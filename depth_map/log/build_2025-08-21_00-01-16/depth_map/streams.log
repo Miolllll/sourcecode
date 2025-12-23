@@ -1,0 +1,24 @@
+[0.364s] Invoking command in '/home/go/ros2_ws/src/depth_map': PYTHONPATH=/home/go/ros2_ws/src/depth_map/build/depth_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/depth_map build --build-base /home/go/ros2_ws/src/depth_map/build/depth_map/build install --record /home/go/ros2_ws/src/depth_map/build/depth_map/install.log --single-version-externally-managed install_data
+[0.517s] running egg_info
+[0.517s] writing build/depth_map/depth_map.egg-info/PKG-INFO
+[0.517s] writing dependency_links to build/depth_map/depth_map.egg-info/dependency_links.txt
+[0.517s] writing entry points to build/depth_map/depth_map.egg-info/entry_points.txt
+[0.517s] writing requirements to build/depth_map/depth_map.egg-info/requires.txt
+[0.517s] writing top-level names to build/depth_map/depth_map.egg-info/top_level.txt
+[0.518s] reading manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+[0.519s] writing manifest file 'build/depth_map/depth_map.egg-info/SOURCES.txt'
+[0.519s] running build
+[0.519s] running build_py
+[0.519s] running install
+[0.519s] running install_lib
+[0.520s] running install_data
+[0.520s] running install_egg_info
+[0.521s] removing '/home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map-0.0.0-py3.10.egg-info' (and everything under it)
+[0.522s] Copying build/depth_map/depth_map.egg-info to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth_map-0.0.0-py3.10.egg-info
+[0.522s] running install_scripts
+[0.540s] Installing depth_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.540s] Installing filter_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.541s] Installing point_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.541s] Installing pointcloud_2d_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.541s] writing list of installed files to '/home/go/ros2_ws/src/depth_map/build/depth_map/install.log'
+[0.559s] Invoked command in '/home/go/ros2_ws/src/depth_map' returned '0': PYTHONPATH=/home/go/ros2_ws/src/depth_map/build/depth_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/depth_map build --build-base /home/go/ros2_ws/src/depth_map/build/depth_map/build install --record /home/go/ros2_ws/src/depth_map/build/depth_map/install.log --single-version-externally-managed install_data

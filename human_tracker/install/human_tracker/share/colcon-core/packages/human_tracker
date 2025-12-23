@@ -1,0 +1,1 @@
+cv_bridge:geometry_msgs:nav2_behavior_tree:nav2_common:nav2_controller:nav2_core:nav2_costmap_2d:nav2_msgs:nav2_navfn_planner:nav2_planner:nav2_smac_planner:nav2_util:nav_msgs:python3-numpy:python3-opencv:rclpy:sensor_msgs:std_msgs:tf2_geometry_msgs:tf2_ros

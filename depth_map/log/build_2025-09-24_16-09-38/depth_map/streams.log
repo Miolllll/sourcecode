@@ -1,0 +1,20 @@
+[0.390s] Invoking command in '/home/go/ros2_ws/src/depth_map/build/depth_map': PYTHONPATH=/home/go/ros2_ws/src/depth_map/build/depth_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/go/ros2_ws/src/depth_map/build/depth_map/build --no-deps symlink_data
+[0.558s] running develop
+[0.660s] running egg_info
+[0.660s] writing depth_map.egg-info/PKG-INFO
+[0.660s] writing dependency_links to depth_map.egg-info/dependency_links.txt
+[0.660s] writing entry points to depth_map.egg-info/entry_points.txt
+[0.660s] writing requirements to depth_map.egg-info/requires.txt
+[0.661s] writing top-level names to depth_map.egg-info/top_level.txt
+[0.661s] reading manifest file 'depth_map.egg-info/SOURCES.txt'
+[0.662s] writing manifest file 'depth_map.egg-info/SOURCES.txt'
+[0.663s] running build_ext
+[0.663s] Creating /home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages/depth-map.egg-link (link to .)
+[0.664s] Installing depth_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.664s] Installing filter_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.664s] Installing point_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.664s] Installing pointcloud_2d_map_node script to /home/go/ros2_ws/src/depth_map/install/depth_map/lib/depth_map
+[0.664s] 
+[0.664s] Installed /home/go/ros2_ws/src/depth_map/build/depth_map
+[0.664s] running symlink_data
+[0.682s] Invoked command in '/home/go/ros2_ws/src/depth_map/build/depth_map' returned '0': PYTHONPATH=/home/go/ros2_ws/src/depth_map/build/depth_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/go/ros2_ws/src/depth_map/install/depth_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/go/ros2_ws/src/depth_map/build/depth_map/build --no-deps symlink_data
